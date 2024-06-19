@@ -16,5 +16,5 @@ type Comparable interface {
 }
 
 type Comparator[T Comparable] interface {
-	Compare(T, T) int
+	Compare(T, T) bool
 }
