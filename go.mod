@@ -1,6 +1,6 @@
 module github.com/zaoshi-studio/slime-go
 
-go 1.18.10
+go 1.18
 
 require github.com/stretchr/testify v1.9.0
 
